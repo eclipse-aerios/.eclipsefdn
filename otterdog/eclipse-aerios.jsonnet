@@ -7,7 +7,7 @@ orgs.newOrg('iot.aerios', 'eclipse-aerios') {
     name: "Eclipse aeriOS project",
     location: "European Union",
     members_can_create_public_pages: true,
-    members_can_create_public_repositories: true,
+    members_can_create_public_repositories: false,
     packages_containers_internal: false,
     packages_containers_public: false,
     web_commit_signoff_required: false,
@@ -31,7 +31,8 @@ orgs.newOrg('iot.aerios', 'eclipse-aerios') {
         "aerios",
         "federator",
         "management",
-        "NGSI-LD"
+        "ngsi-ld",
+        "domain"
       ],
       workflows+: {
         enabled: true
