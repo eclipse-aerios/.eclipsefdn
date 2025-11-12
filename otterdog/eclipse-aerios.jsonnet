@@ -73,7 +73,7 @@ orgs.newOrg('iot.aerios', 'eclipse-aerios') {
         "aerios",
         "AI",
         "federation",
-        "HLO",
+        "hlo",
         "orchestration"
       ],
       workflows+: {
@@ -94,7 +94,7 @@ orgs.newOrg('iot.aerios', 'eclipse-aerios') {
       topics: [
         "aerios",
         "federation",
-        "HLO",
+        "hlo",
         "orchestration"
       ],
       workflows+: {
@@ -115,7 +115,7 @@ orgs.newOrg('iot.aerios', 'eclipse-aerios') {
       topics: [
         "aerios",
         "federation",
-        "HLO",
+        "hlo",
         "orchestration"
       ],
       workflows+: {
@@ -136,10 +136,10 @@ orgs.newOrg('iot.aerios', 'eclipse-aerios') {
       topics: [
         "aerios",
         "federation",
-        "HLO",
-        "NGSI-LD",
+        "hlo",
+        "ngsi-ld",
         "orchestration",
-        "TOSCA"
+        "tosca"
       ],
       workflows+: {
         default_workflow_permissions: "write",
