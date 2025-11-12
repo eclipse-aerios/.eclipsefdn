@@ -71,7 +71,7 @@ orgs.newOrg('iot.aerios', 'eclipse-aerios') {
       secret_scanning: "enabled",
       topics: [
         "aerios",
-        "AI",
+        "ai",
         "federation",
         "hlo",
         "orchestration"
@@ -233,7 +233,7 @@ orgs.newOrg('iot.aerios', 'eclipse-aerios') {
         "aerios",
         "infrastructure-element",
         "node",
-        "self-*",
+        "self",
         "self-awareness"
       ],
       workflows+: {
@@ -258,7 +258,7 @@ orgs.newOrg('iot.aerios', 'eclipse-aerios') {
         "node",
         "orchestration",
         "rules",
-        "self-*",
+        "self",
         "self-orchestrator"
       ],
       workflows+: {
