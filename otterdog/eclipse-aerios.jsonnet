@@ -72,7 +72,7 @@ orgs.newOrg('iot.aerios', 'eclipse-aerios') {
       topics: [
         "aerios",
         "AI",
-        "federation"
+        "federation",
         "HLO",
         "orchestration"
       ],
@@ -93,7 +93,7 @@ orgs.newOrg('iot.aerios', 'eclipse-aerios') {
       secret_scanning: "enabled",
       topics: [
         "aerios",
-        "federation"
+        "federation",
         "HLO",
         "orchestration"
       ],
@@ -114,7 +114,7 @@ orgs.newOrg('iot.aerios', 'eclipse-aerios') {
       secret_scanning: "enabled",
       topics: [
         "aerios",
-        "federation"
+        "federation",
         "HLO",
         "orchestration"
       ],
@@ -135,7 +135,7 @@ orgs.newOrg('iot.aerios', 'eclipse-aerios') {
       secret_scanning: "enabled",
       topics: [
         "aerios",
-        "federation"
+        "federation",
         "HLO",
         "NGSI-LD",
         "orchestration",
