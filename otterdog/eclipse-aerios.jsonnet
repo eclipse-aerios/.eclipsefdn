@@ -24,6 +24,18 @@ orgs.newOrg('iot.aerios', 'eclipse-aerios') {
     },
   ],
   _repositories+:: [
+    orgs.newRepo('.github') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      dependabot_alerts_enabled: false,
+      description: "GitHub organization configuration repository",
+      has_discussions: false,
+      has_wiki: false,
+      topics+: [
+        "aerios",
+        "github",
+      ],
+    },
     orgs.newRepo('aerios-k8s-shim') {
       allow_merge_commit: true,
       allow_update_branch: false,
