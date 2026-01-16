@@ -140,12 +140,13 @@ orgs.newOrg('iot.aerios', 'eclipse-aerios') {
       allow_merge_commit: true,
       allow_update_branch: false,
       dependabot_alerts_enabled: false,
-      description: "The aeriOS Federator serves as a management service responsible for controlling the establishment and maintenance of federation mechanisms among the multiple aeriOS domains that form the Cloud-Edge-IoT continuum",
+      description: "EAT provides a framework for the design, implementation, and deployment of specialised functions following a FaaS model.",
       has_discussions: true,
       homepage: "",
       topics+: [
         "aerios",
         "aerios-faas-template",
+        "aerios-eat-functions-template",
         "faas",
         "openfaas",
         "serverless"
