@@ -22,6 +22,9 @@ orgs.newOrg('iot.aerios', 'eclipse-aerios') {
     orgs.newOrgSecret('DOCKER_HUB_TOKEN') {
       value: "pass:bots/iot.aerios/docker.com/api-token",
     },
+    orgs.newOrgSecret('DEPLOY_TOKEN') {
+      value: "pass:bots/iot.aerios/github.com/api-token-hd6872",
+    },
   ],
   _repositories+:: [
     orgs.newRepo('.github') {
